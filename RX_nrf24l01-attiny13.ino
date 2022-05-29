@@ -237,7 +237,7 @@ void TX_Mode(void)
   //SPI_Write_Buf(WRITE_REG + RX_ADDR_P0, TX_ADDRESS, TX_ADR_WIDTH);  // RX_Addr0 same as TX_Adr for Auto.Ack
   SPI_RW_Reg(WRITE_REG + TX_ADDR, 0xE7E7E7E7E7);                      //adress
   //SPI_RW_Reg(WRITE_REG + RX_ADDR_P0, 0xE7E7E7E7E7);
-  SPI_RW_Reg(WRITE_REG + SETUP_AW, TX_ADR_WIDTH);                     //5 bytes adress width
+  SPI_RW_Reg(WRITE_REG + SETUP_AW, 0x03);                     //5 bytes adress width
   
   
   //SPI_RW_Reg(WRITE_REG + EN_AA, 0x01);                              // Enable Auto.Ack:Pipe0
