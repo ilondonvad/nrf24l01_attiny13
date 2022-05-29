@@ -52,8 +52,7 @@
 #define sbi(x,y)    x|= (1<<y)
 #define SPI_DDR (*((&SPI_PORT) -1))
 #define SPI_PIN (*((&SPI_PORT) -2))
-
-#define TX_ADR_WIDTH    5               // 5 unsigned chars TX(RX) address width
+ 
 #define TX_PLOAD_WIDTH  1               // 32 byte max, количество байт которые хотите передать
 
 #include <avr/sleep.h>
