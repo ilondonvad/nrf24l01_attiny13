@@ -1,4 +1,3 @@
-# nrf24l01_attiny13
 # connect attiny13 to nrf24l01 or Si24R1.
 * Ресурсы взяты с сайта https://forum.arduino.cc/t/solved-attiny13a-and-nrf24l01/431914/3
 * Часть кода переделана так как никак не получалось запустить и отправить данные
